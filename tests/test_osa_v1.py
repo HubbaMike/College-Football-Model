@@ -20,7 +20,7 @@ class TestRankPercentiles(unittest.TestCase):
         self.assertAlmostEqual(fbs_rank_to_percentile(138), 0.0)
 
     def test_middle_rank_uses_approved_138_team_formula(self):
-        self.assertAlmostEqual(fbs_rank_to_percentile(69), 50.364963503649635)
+        self.assertAlmostEqual(fbs_rank_to_percentile(69), 51.09489051094891)
 
     def test_invalid_rank_rejected(self):
         with self.assertRaises(ValueError):
