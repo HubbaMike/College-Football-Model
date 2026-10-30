@@ -1,0 +1,50 @@
+name: CFBD data refresh
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season year"
+        required: true
+        default: "2026"
+      end_week:
+        description: "Optional latest week (leave blank for all available)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-cfbd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Retrieve CFBD data
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          CFBD_SEASON: ${{ inputs.season }}
+          CFBD_END_WEEK: ${{ inputs.end_week }}
+        run: python data/retrieve_cfbd.py
+
+      - name: Commit retrieved raw data
+        run: |
+          if [ -n "$(git status --porcelain data/raw)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/raw
+            git commit -m "Refresh CFBD raw data"
+            git push
+          else
+            echo "No raw-data changes to commit."
+          fi
