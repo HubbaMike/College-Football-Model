@@ -43,7 +43,7 @@ def fbs_rank_to_percentile(rank: int, fbs_teams: int = 138) -> float:
         raise ValueError(f"rank must be between 1 and {fbs_teams}")
     if fbs_teams < 2:
         raise ValueError("fbs_teams must be at least 2")
-    return ((fbs_teams + 1 - rank) / (fbs_teams - 1)) * 100.0
+    return ((fbs_teams - rank) / (fbs_teams - 1)) * 100.0
 
 
 def weighted_osa_rating(
