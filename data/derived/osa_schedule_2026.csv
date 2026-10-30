@@ -1,0 +1,68 @@
+season,team,conference,qualifying_p4_games,OSA_Rush,OSA_Pass,OSA_Defense,OSA_Offense,opponent_names
+2026,Alabama,SEC,10,56.13138686131386,52.375912408759135,60.23357664233578,54.500000000000014,Kentucky;Florida State;South Carolina;Mississippi State;Georgia;Tennessee;Texas A&M;LSU;Vanderbilt;Auburn
+2026,Arizona,Big 12,9,56.47607461476074,54.57826439578264,60.82725060827251,55.332522303325234,BYU;Cincinnati;West Virginia;Iowa State;Texas Tech;TCU;Utah;Kansas State;Arizona State
+2026,Arizona State,Big 12,10,66.64598540145985,61.321167883211686,55.08211678832117,64.13138686131389,Texas A&M;Kansas;Baylor;Texas Tech;Kansas State;BYU;Colorado;UCF;Oklahoma State;Arizona
+2026,Arkansas,SEC,10,66.1861313868613,62.67883211678833,58.421532846715344,64.64233576642337,Utah;Georgia;Texas A&M;Tennessee;Vanderbilt;Missouri;Auburn;South Carolina;Texas;LSU
+2026,Auburn,SEC,10,60.620437956204384,57.26277372262774,61.11131386861316,60.24452554744526,Baylor;Florida;Vanderbilt;Tennessee;Georgia;LSU;Ole Miss;Arkansas;Mississippi State;Alabama
+2026,Baylor,Big 12,10,63.321167883211686,55.09124087591241,51.45620437956205,58.40510948905111,Auburn;Colorado;Arizona State;TCU;Kansas;UCF;Iowa State;BYU;Texas Tech;Houston
+2026,Boston College,ACC,10,51.565693430656935,43.54379562043796,67.36678832116789,46.79562043795621,Cincinnati;Rutgers;Virginia Tech;SMU;Pittsburgh;Georgia Tech;Duke;Florida State;Syracuse;Miami
+2026,BYU,Big 12,9,65.58394160583943,61.97891321978913,58.01703163017032,63.30089213300895,Arizona;TCU;Iowa State;UCF;Arizona State;Utah;Baylor;Kansas;Cincinnati
+2026,California,ACC,10,58.003649635036496,55.1934306569343,53.98722627737227,56.47445255474453,UCLA;Syracuse;Clemson;Virginia Tech;Wake Forest;SMU;NC State;Virginia;Stanford;Pittsburgh
+2026,Cincinnati,Big 12,10,57.47810218978102,52.06934306569343,59.049270072992705,54.98540145985402,Boston College;Kansas State;Arizona;West Virginia;Texas Tech;Utah;Houston;Iowa State;Colorado;BYU
+2026,Clemson,ACC,10,54.72627737226278,50.8978102189781,60.1167883211679,50.23357664233578,LSU;North Carolina;California;Miami;Virginia Tech;Florida State;Syracuse;Georgia Tech;Duke;South Carolina
+2026,Colorado,Big 12,11,53.32780358327804,53.55673523556736,64.88885202388852,54.55872594558727,Georgia Tech;Northwestern;Baylor;Texas Tech;Utah;Oklahoma State;Kansas State;Arizona State;Houston;Cincinnati;UCF
+2026,Duke,ACC,10,44.82116788321168,45.21167883211679,55.42153284671533,44.291970802919714,Illinois;Stanford;Georgia Tech;North Carolina;Virginia;Boston College;NC State;Miami;Clemson;Wake Forest
+2026,Florida,SEC,10,56.45620437956204,52.5948905109489,55.69160583941607,53.73357664233576,Auburn;Ole Miss;Missouri;South Carolina;Texas;Georgia;Oklahoma;Kentucky;Vanderbilt;Florida State
+2026,Florida State,ACC,10,61.23357664233576,52.507299270073,63.59489051094893,58.37226277372264,SMU;Alabama;Virginia;Louisville;Miami;Clemson;Boston College;Pittsburgh;NC State;Florida
+2026,Georgia,SEC,10,51.09489051094891,45.098540145985396,52.89598540145986,47.72992700729928,Arkansas;Oklahoma;Vanderbilt;Alabama;Auburn;Florida;Ole Miss;Missouri;South Carolina;Georgia Tech
+2026,Georgia Tech,ACC,11,62.20305242203053,54.69475779694758,56.89117451891175,60.73656270736563,Colorado;Tennessee;Stanford;Duke;Virginia Tech;Boston College;Pittsburgh;Louisville;Clemson;Wake Forest;Georgia
+2026,Houston,Big 12,9,59.02676399026763,51.98296836982968,59.091646390916466,55.79886455798866,Texas Tech;UCF;Kansas State;Oklahoma State;Utah;Cincinnati;Colorado;West Virginia;Baylor
+2026,Illinois,Big Ten,10,63.17883211678831,60.84306569343065,59.23905109489052,62.30291970802921,Duke;Ohio State;Purdue;Michigan State;Oregon;Maryland;Nebraska;UCLA;Iowa;Northwestern
+2026,Indiana,Big Ten,9,54.436334144363336,56.208434712084355,60.484590429845916,57.12895377128955,Northwestern;Rutgers;Nebraska;Ohio State;Michigan;Minnesota;USC;Washington;Purdue
+2026,Iowa,Big Ten,10,57.452554744525536,61.014598540146,57.37956204379562,61.317518248175205,Iowa State;Michigan;Ohio State;Washington;Minnesota;Wisconsin;Northwestern;Purdue;Illinois;Nebraska
+2026,Iowa State,Big 12,10,63.66058394160584,56.598540145985396,65.49817518248176,59.89781021897811,Iowa;Utah;West Virginia;BYU;Arizona;Oklahoma State;Baylor;Cincinnati;UCF;Kansas State
+2026,Kansas,Big 12,10,64.44525547445255,60.64598540145986,58.86496350364964,61.33941605839417,Missouri;Arizona State;Utah;Kansas State;Baylor;TCU;UCF;West Virginia;BYU;Oklahoma State
+2026,Kansas State,Big 12,9,59.164639091646386,51.00162206001622,57.244525547445264,54.77696674776968,Cincinnati;Houston;Kansas;Arizona State;Colorado;Oklahoma State;TCU;Arizona;Iowa State
+2026,Kentucky,SEC,10,64.48905109489051,57.43795620437955,58.27372262773723,62.23357664233576,Alabama;Texas A&M;South Carolina;LSU;Oklahoma;Vanderbilt;Tennessee;Florida;Missouri;Louisville
+2026,Louisville,ACC,11,44.11413404114134,41.267418712674186,61.57431984074319,41.05175846051758,Ole Miss;SMU;Wake Forest;NC State;Florida State;Syracuse;Stanford;Georgia Tech;North Carolina;Pittsburgh;Kentucky
+2026,LSU,SEC,10,55.54744525547444,57.069343065693445,48.268248175182485,58.700729927007295,Clemson;Ole Miss;Texas A&M;Kentucky;Mississippi State;Auburn;Alabama;Texas;Tennessee;Arkansas
+2026,Maryland,Big Ten,10,53.78102189781023,53.94525547445255,63.25182481751826,53.42700729927007,Virginia Tech;UCLA;Nebraska;Ohio State;Rutgers;Illinois;Purdue;Wisconsin;USC;Penn State
+2026,Miami,ACC,9,53.998377939983776,50.31224655312246,53.28061638280617,52.87510137875102,Stanford;Wake Forest;Clemson;Florida State;Pittsburgh;North Carolina;Duke;Virginia Tech;Boston College
+2026,Michigan,Big Ten,10,65.77007299270072,66.52189781021897,46.46715328467154,67.13868613138688,Oklahoma;Iowa;Minnesota;Penn State;Indiana;Rutgers;Michigan State;Oregon;UCLA;Ohio State
+2026,Michigan State,Big Ten,9,61.39091646390916,65.53933495539334,58.50567721005679,64.13219789132198,Nebraska;Wisconsin;Illinois;Northwestern;UCLA;Michigan;Washington;Oregon;Rutgers
+2026,Minnesota,Big Ten,10,65.63868613138685,66.0036496350365,56.27737226277374,67.64233576642337,Mississippi State;Washington;Michigan;Purdue;Iowa;Indiana;UCLA;Penn State;Northwestern;Wisconsin
+2026,Mississippi State,SEC,10,63.127737226277375,60.259124087591246,51.13868613138687,62.36861313868612,Minnesota;South Carolina;Missouri;Alabama;LSU;Oklahoma;Texas;Vanderbilt;Auburn;Ole Miss
+2026,Missouri,SEC,10,60.77007299270074,54.372262773722625,53.66788321167884,58.6058394160584,Kansas;Mississippi State;Florida;Texas A&M;Ole Miss;Arkansas;Texas;Georgia;Kentucky;Oklahoma
+2026,NC State,ACC,10,43.667883211678834,46.65693430656935,54.047445255474464,43.54744525547446,Virginia;Vanderbilt;Louisville;Wake Forest;Stanford;California;Duke;Syracuse;Florida State;North Carolina
+2026,Nebraska,Big Ten,9,60.802919708029194,51.20437956204379,55.34671532846716,53.89699918897,Michigan State;Maryland;Indiana;Oregon;Washington;Illinois;Rutgers;Ohio State;Iowa
+2026,North Carolina,ACC,9,64.68775344687754,58.56042173560421,58.0778588807786,60.92051905920519,TCU;Clemson;Pittsburgh;Duke;Syracuse;Miami;Louisville;Virginia;NC State
+2026,Northwestern,Big Ten,10,58.583941605839414,54.82116788321167,49.45620437956205,56.82846715328468,Colorado;Indiana;Penn State;Michigan State;Rutgers;Oregon;Iowa;Ohio State;Minnesota;Illinois
+2026,Ohio State,Big Ten,10,65.91970802919708,62.70437956204379,59.15328467153286,63.41970802919709,Texas;Illinois;Iowa;Maryland;Indiana;USC;Oregon;Northwestern;Nebraska;Michigan
+2026,Oklahoma,SEC,10,65.7992700729927,55.34306569343065,57.63138686131388,59.86496350364964,Michigan;Georgia;Texas;Kentucky;Mississippi State;South Carolina;Florida;Ole Miss;Texas A&M;Missouri
+2026,Oklahoma State,Big 12,10,57.507299270072984,48.27372262773723,51.682481751824824,52.211678832116796,Oregon;West Virginia;UCF;Houston;Colorado;Iowa State;Kansas State;Texas Tech;Arizona State;Kansas
+2026,Ole Miss,SEC,10,63.42700729927007,57.61313868613139,58.461678832116796,61.23357664233578,Louisville;LSU;Florida;Vanderbilt;Missouri;Texas;Auburn;Georgia;Oklahoma;Mississippi State
+2026,Oregon,Big Ten,10,62.88686131386861,60.67153284671533,62.07846715328468,60.22627737226278,Oklahoma State;USC;UCLA;Nebraska;Illinois;Northwestern;Ohio State;Michigan;Michigan State;Washington
+2026,Penn State,Big Ten,9,51.14760746147607,52.072181670721825,51.07461476074616,53.057583130575836,Wisconsin;Northwestern;USC;Michigan;Purdue;Washington;Minnesota;Rutgers;Maryland
+2026,Pittsburgh,ACC,10,50.255474452554736,47.4051094890511,56.83029197080293,47.7043795620438,UCF;Syracuse;Virginia Tech;North Carolina;Boston College;Miami;Georgia Tech;Florida State;Louisville;California
+2026,Purdue,Big Ten,10,66.02554744525547,65.17883211678831,54.41240875912409,66.4160583941606,Wake Forest;UCLA;Illinois;Minnesota;Washington;Penn State;Maryland;Iowa;Wisconsin;Indiana
+2026,Rutgers,Big Ten,10,57.412408759124084,64.00729927007299,53.20802919708031,61.46350364963504,Boston College;USC;Indiana;Maryland;Northwestern;Michigan;Wisconsin;Nebraska;Penn State;Michigan State
+2026,SMU,ACC,9,45.17842660178426,46.6463909164639,55.062854825628555,46.11922141119223,Florida State;Louisville;Boston College;Virginia;California;Syracuse;Virginia Tech;Wake Forest;Stanford
+2026,South Carolina,SEC,10,59.89051094890512,58.82846715328467,50.377737226277375,62.63138686131388,Mississippi State;Alabama;Kentucky;Florida;Tennessee;Oklahoma;Texas A&M;Arkansas;Georgia;Clemson
+2026,Stanford,ACC,9,55.23925385239253,46.618004866180044,70.23317112733173,48.19545823195459,Miami;Duke;Georgia Tech;Wake Forest;NC State;Louisville;Virginia Tech;California;SMU
+2026,Syracuse,ACC,9,51.04622871046228,52.34387672343877,49.63909164639092,52.99675587996756,California;Pittsburgh;Virginia;Louisville;North Carolina;SMU;Clemson;NC State;Boston College
+2026,TCU,Big 12,10,63.07664233576643,60.85766423357664,61.587591240875916,61.14963503649636,North Carolina;UCF;BYU;Baylor;West Virginia;Kansas;Arizona;Kansas State;Utah;Texas Tech
+2026,Tennessee,SEC,10,55.17518248175181,50.65328467153285,52.55109489051095,52.63868613138686,Georgia Tech;Texas;Auburn;Arkansas;Alabama;South Carolina;Kentucky;Texas A&M;LSU;Vanderbilt
+2026,Texas,SEC,10,62.13868613138686,61.379562043795616,54.97445255474454,63.55109489051095,Ohio State;Tennessee;Oklahoma;Florida;Ole Miss;Mississippi State;Missouri;LSU;Arkansas;Texas A&M
+2026,Texas A&M,SEC,10,64.1970802919708,64.5912408759124,51.007299270073005,65.67153284671534,Arizona State;Kentucky;LSU;Arkansas;Missouri;Alabama;South Carolina;Tennessee;Oklahoma;Texas
+2026,Texas Tech,Big 12,9,59.65936739659368,51.41119221411192,57.388483373884846,55.04055150040553,Houston;Colorado;Arizona State;Cincinnati;Arizona;West Virginia;Oklahoma State;Baylor;TCU
+2026,UCF,Big 12,10,67.05839416058396,55.41970802919707,52.61313868613139,60.62408759124088,Pittsburgh;TCU;Houston;Oklahoma State;BYU;Baylor;Kansas;Arizona State;Iowa State;Colorado
+2026,UCLA,Big Ten,10,49.32481751824818,49.25547445255474,41.99635036496351,47.41240875912409,California;Purdue;Maryland;Oregon;Wisconsin;Michigan State;Minnesota;Illinois;Michigan;USC
+2026,USC,Big Ten,9,65.18653690186537,66.50851581508515,55.46836982968371,65.82725060827252,Rutgers;Oregon;Washington;Penn State;Wisconsin;Ohio State;Indiana;Maryland;UCLA
+2026,Utah,Big 12,10,55.78467153284671,47.16423357664233,57.315693430656935,50.70802919708031,Arkansas;Iowa State;Kansas;Colorado;Houston;Cincinnati;BYU;Arizona;TCU;West Virginia
+2026,Vanderbilt,SEC,10,54.10218978102189,47.722627737226276,63.321167883211686,51.82481751824819,NC State;Auburn;Georgia;Ole Miss;Arkansas;Kentucky;Mississippi State;Alabama;Florida;Tennessee
+2026,Virginia,ACC,10,50.02919708029196,45.82116788321168,60.29197080291972,44.98540145985402,NC State;West Virginia;Florida State;Syracuse;SMU;Duke;Wake Forest;California;North Carolina;Virginia Tech
+2026,Virginia Tech,ACC,10,46.481751824817515,48.14963503649635,47.080291970802925,48.135036496350374,Maryland;Boston College;Pittsburgh;California;Georgia Tech;Clemson;SMU;Stanford;Miami;Virginia
+2026,Wake Forest,ACC,10,42.518248175182485,38.762773722627735,62.25182481751826,39.259124087591246,Purdue;Miami;Louisville;Stanford;NC State;California;Virginia;SMU;Georgia Tech;Duke
+2026,Washington,Big Ten,9,56.65450121654501,55.961070559610704,52.92579075425792,57.246553122465535,Minnesota;USC;Iowa;Purdue;Nebraska;Penn State;Michigan State;Indiana;Oregon
+2026,West Virginia,Big 12,10,60.302919708029194,56.799270072992705,64.09671532846716,58.68613138686131,Virginia;Oklahoma State;Iowa State;Arizona;Cincinnati;TCU;Texas Tech;Kansas;Houston;Utah
+2026,Wisconsin,Big Ten,9,49.51743714517437,46.8734793187348,44.60259529602596,48.08191403081914,Penn State;Michigan State;UCLA;USC;Iowa;Rutgers;Maryland;Purdue;Minnesota
