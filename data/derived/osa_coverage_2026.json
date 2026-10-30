@@ -1,0 +1,13 @@
+{
+  "retrieved_at": "2026-10-30T22:35:57Z",
+  "source": "CollegeFootballData API advanced season stats + games + FBS teams",
+  "fbs_teams": 138,
+  "advanced_season_rows": 138,
+  "p4_teams": 67,
+  "p4_vs_p4_scheduled_games": 328,
+  "p4_vs_p4_completed_games": 174,
+  "osa_team_rows": 67,
+  "rank_basis": "Empirical percentile across all 138 FBS teams using CFBD 2026 season advanced stats; lower defensive EPA/Success Rate/Line Yards/explosiveness is better; higher defensive Havoc is better.",
+  "important": "OSA values are schedule averages of opponent component ratings. No field adjustment multiplier is applied; the approved multiplier remains unvalidated.",
+  "missing": []
+}
