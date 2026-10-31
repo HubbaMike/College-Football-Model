@@ -1,35 +1,20 @@
 # Opponent Strength Adjustment (OSA)
 
 ## Current implementation
+The approved production design is **OSA v2**, documented in [OSA_V2_PRODUCTION_SPEC.md](OSA_V2_PRODUCTION_SPEC.md). OSA v1 and the experimental 0.0034 multiplier are historical only and are not the active model.
 
-- `OSA_V1_SPEC.md` is the approved component and data-handling specification.
-- `osa_v1.py` implements the approved 0–100 rank-percentile conversion, weighted components, missing-field renormalization, and opponent averaging.
-- `build_osa_dataset.py` builds team component scores and the four schedule-level OSA averages from verified rank and game CSVs.
-- `../../tests/test_osa_v1.py` contains unit tests.
+OSA v2 produces four schedule-strength dimensions (OSA-Rush, OSA-Pass, OSA-Defense, OSA-Offense) from numerical performance ratings of qualifying Power 4 opponents. It then applies the relevant dimension to each trench field using the bounded field-level adjustment in the v2 specification.
 
-## Run
+## Scope and rules
+- Qualifying opponents are SEC, Big Ten, Big 12, and ACC teams.
+- Use actual retrieved numerical fields and the current approved data snapshot.
+- Raw FBS percentiles use the full FBS population and are oriented so higher is better for the component being scored.
+- Apply OSA to offensive and defensive trench inputs only. QB Matchup is calculated from its raw FBS percentile inputs and is not directly OSA-adjusted.
+- Missing OSA rows or missing core metrics remain blank; never silently impute.
 
-From the repository root:
+## Current data
+- Schedule ratings: `data/derived/osa_schedule_2026.csv`
+- Field-level export: `data/derived/2026_osa_v2_adjusted_team_fields.csv`
+- Snapshot and coverage details are recorded in `data/derived/osa_coverage_2026.json`.
 
-```bash
-python -m unittest discover -s tests -v
-python models/osa/build_osa_dataset.py \
-  --ranks data/team_ranks.csv \
-  --games data/games.csv \
-  --out data/osa_2026.csv \
-  --season 2026
-```
-
-## Input requirements
-
-`team_ranks.csv` must contain `team`, `conference`, and the exact rank-field columns listed in `build_osa_dataset.py`. Values must be actual retrieved FBS ranks, where rank 1 is best. Leave a field blank when its numeric value has not been retrieved; do not estimate it.
-
-`games.csv` must contain `home_team`, `away_team`, `home_conference`, and `away_conference`. Only SEC, Big Ten, Big 12, and ACC vs those same conferences are counted.
-
-## Important boundary
-
-The builder currently calculates OSA ratings only. It does **not** apply the withdrawn provisional OSA-to-multiplier formula. The ±20% cap is a design constraint for the eventual field adjustment, not permission to use an unvalidated conversion.
-
-## Data status
-
-No 2026 OSA dataset is being represented as complete until the underlying numerical FBS ranks and game schedule have actually been retrieved, checked, and loaded. The next integration step is a source-specific CFBD data adapter and a verified field-name mapping.
+The adjusted-team-fields export contains legacy QB-adjustment columns that must not be used. Use the raw QB percentile columns for QB Matchup. Trench columns must follow the mappings in the v2 production specification.
