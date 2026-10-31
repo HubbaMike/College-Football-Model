@@ -1,0 +1,378 @@
+{
+  "cfbd_advanced_game_stats_2026_20261030T223557Z.json.gz": {
+    "type": "list",
+    "rows": 2090,
+    "sample_keys": [
+      "defense",
+      "gameId",
+      "offense",
+      "opponent",
+      "season",
+      "seasonType",
+      "team",
+      "week"
+    ],
+    "sample": {
+      "gameId": 401856634,
+      "season": 2026,
+      "seasonType": "regular",
+      "week": 1,
+      "team": "Alabama",
+      "opponent": "East Carolina",
+      "offense": {
+        "plays": 80,
+        "drives": 11,
+        "ppa": 0.2401798962265042,
+        "totalPPA": 19.214391698120338,
+        "successRate": 0.525,
+        "explosiveness": 1.1065101966937536,
+        "powerSuccess": 0.8333333333333334,
+        "stuffRate": 0.16666666666666666,
+        "lineYards": 3.25,
+        "lineYardsTotal": 156,
+        "secondLevelYards": 1.2083333333333333,
+        "secondLevelYardsTotal": 58,
+        "openFieldYards": 0.6666666666666666,
+        "openFieldYardsTotal": 32,
+        "standardDowns": {
+          "ppa": 0.1053619727228849,
+          "successRate": 0.543859649122807,
+          "explosiveness": 0.840982798818786
+        },
+        "passingDowns": {
+          "ppa": 0.5742938805615608,
+          "successRate": 0.4782608695652174,
+          "explosiveness": 1.8548146816141171
+        },
+        "rushingPlays": {
+          "ppa": 0.25645703102275985,
+          "totalPPA": 12.309937489092473,
+          "successRate": 0.625,
+          "explosiveness": 0.9421918958698788
+        },
+        "passingPlays": {
+          "ppa": 0.21576419403212077,
+          "totalPPA": 6.904454209027865,
+          "successRate": 0.375,
+          "explosiveness": 1.5173059487534406
+        }
+      },
+      "defense": {
+        "plays": 41,
+        "drives": 12,
+        "ppa": -0.19854331617785437,
+        "totalPPA": -8.14027596329203,
+        "successRate": 0.21951219512195122,
+        "explosiveness": 1.548265437530798,
+        "powerSuccess": 0,
+        "stuffRate": 0.3684210526315789,
+        "lineYards": 0.13157894736842105,
+        "lineYardsTotal": 3,
+        "secondLevelYards": 0.3684210526315789,
+        "secondLevelYardsTotal": 7,
+        "openFieldYards": 0,
+        "openFieldYardsTotal": 0,
+        "standardDowns": {
+          "ppa": -0.19277396782996778,
+          "successRate": 0.2,
+          "explosiveness": 1.289743510017113
+        },
+        "passingDowns": {
+          "ppa": -0.2075579229714272,
+          "successRate": 0.25,
+          "explosiveness": 1.8714178469229044
+        },
+        "rushingPlays": {
+          "ppa": -0.3805714544323107,
+          "totalPPA": -7.230857634213904,
+          "successRate": 0.15789473684210525,
+          "explosiveness": 0.3502995301529825
+        },
+        "passingPlays": {
+          "ppa": -0.04133719677627842,
+          "totalPPA": -0.9094183290781254,
+          "successRate": 0.2727272727272727,
+          "explosiveness": 2.147248391219706
+        }
+      }
+    }
+  },
+  "cfbd_advanced_season_stats_2026_20261030T223557Z.json.gz": {
+    "type": "list",
+    "rows": 138,
+    "sample_keys": [
+      "conference",
+      "defense",
+      "offense",
+      "season",
+      "team"
+    ],
+    "sample": {
+      "season": 2026,
+      "team": "Air Force",
+      "conference": "Mountain West",
+      "offense": {
+        "plays": 522,
+        "drives": 67,
+        "ppa": 0.218812089775661,
+        "totalPPA": 114.21991086289505,
+        "successRate": 0.4942528735632184,
+        "explosiveness": 1.0353533612189476,
+        "powerSuccess": 0.84375,
+        "stuffRate": 0.08924485125858124,
+        "lineYards": 3.751945080091533,
+        "lineYardsTotal": 1640,
+        "secondLevelYards": 1.2448512585812357,
+        "secondLevelYardsTotal": 544,
+        "openFieldYards": 0.8672768878718535,
+        "openFieldYardsTotal": 379,
+        "totalOpportunies": 40,
+        "pointsPerOpportunity": 4.45,
+        "fieldPosition": {
+          "averageStart": 71.7,
+          "averagePredictedPoints": 1.23
+        },
+        "havoc": {
+          "total": 0.069,
+          "frontSeven": 0.044,
+          "db": 0.025
+        },
+        "standardDowns": {
+          "rate": 0.7701149425287356,
+          "ppa": 0.22918429483031577,
+          "successRate": 0.5572139303482587,
+          "explosiveness": 0.9418162537950265
+        },
+        "passingDowns": {
+          "rate": 0.22988505747126436,
+          "ppa": 0.18406520284256753,
+          "successRate": 0.2833333333333333,
+          "explosiveness": 1.6515978336588983
+        },
+        "rushingPlays": {
+          "rate": 0.8371647509578544,
+          "ppa": 0.2926722158796329,
+          "totalPPA": 127.89775833939957,
+          "successRate": 0.5263157894736842,
+          "explosiveness": 0.9543245781232829
+        },
+        "passingPlays": {
+          "rate": 0.1360153256704981,
+          "ppa": -0.056597206236543976,
+          "totalPPA": -4.018401642794622,
+          "successRate": 0.352112676056338,
+          "explosiveness": 1.7922140988205242
+        }
+      },
+      "defense": {
+        "plays": 375,
+        "drives": 66,
+        "ppa": 0.06432211881153796,
+        "totalPPA": 24.120794554326736,
+        "successRate": 0.38666666666666666,
+        "explosiveness": 1.2662044448392238,
+        "powerSuccess": 0.7368421052631579,
+        "stuffRate": 0.17010309278350516,
+        "lineYards": 3.1309278350515464,
+        "lineYardsTotal": 607,
+        "secondLevelYards": 1.1030927835051545,
+        "secondLevelYardsTotal": 214,
+        "openFieldYards": 1.2371134020618557,
+        "openFieldYardsTotal": 0,
+        "totalOpportunies": 27,
+        "pointsPerOpportunity": 4.074074074074074,
+        "fieldPosition": {
+          "averageStart": 72.8,
+          "averagePredictedPoints": -1.184
+        },
+        "havoc": {
+          "total": 0.139,
+          "frontSeven": 0.064,
+          "db": 0.075
+        },
+        "standardDowns": {
+          "rate": 0.656,
+          "ppa": 0.015527077861335819,
+          "successRate": 0.44715447154471544,
+          "explosiveness": 1.0744267688201252
+        },
+        "passingDowns": {
+          "rate": 0.344,
+          "ppa": 0.15737312713517926,
+          "totalPPA": 26.10075112653321,
+          "successRate": 0.2713178294573643,
+          "explosiveness": 1.8689342837563914
+        },
+        "rushingPlays": {
+          "rate": 0.5173333333333333,
+          "ppa": 0.036413277511126586,
+          "totalPPA": 7.064175837158557,
+          "successRate": 0.4072164948453608,
+          "explosiveness": 0.9565903042768
+        },
+        "passingPlays": {
+          "rate": 0.4533333333333333,
+          "ppa": 0.15353383015607772,
+          "totalPPA": 26.10075112653321,
+          "successRate": 0.38823529411764707,
+          "explosiveness": 1.6368031888457615
+        }
+      }
+    }
+  },
+  "cfbd_fbs_teams_20261030T223557Z.json.gz": {
+    "type": "list",
+    "rows": 138,
+    "sample_keys": [
+      "abbreviation",
+      "alternateColor",
+      "alternateNames",
+      "classification",
+      "color",
+      "conference",
+      "division",
+      "id",
+      "location",
+      "logos",
+      "mascot",
+      "school",
+      "twitter"
+    ],
+    "sample": {
+      "id": 2005,
+      "school": "Air Force",
+      "mascot": "Falcons",
+      "abbreviation": "AF",
+      "alternateNames": [
+        "AF",
+        "Air Force"
+      ],
+      "conference": "Mountain West",
+      "division": null,
+      "classification": "fbs",
+      "color": "#003594",
+      "alternateColor": "#ffffff",
+      "logos": [
+        "https://cdn.collegefootballdata.com/logos/500/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/500/2005.png",
+        "https://cdn.collegefootballdata.com/logos/256/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/256/2005.png",
+        "https://cdn.collegefootballdata.com/logos/128/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/128/2005.png",
+        "https://cdn.collegefootballdata.com/logos/96/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/96/2005.png",
+        "https://cdn.collegefootballdata.com/logos/64/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/64/2005.png",
+        "https://cdn.collegefootballdata.com/logos/48/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/48/2005.png",
+        "https://cdn.collegefootballdata.com/logos/32/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/32/2005.png",
+        "https://cdn.collegefootballdata.com/logos/16/2005.png",
+        "https://cdn.collegefootballdata.com/logos-dark/16/2005.png"
+      ],
+      "twitter": "@AF_Football",
+      "location": {
+        "id": 3713,
+        "name": "Falcon Stadium",
+        "city": "Colorado Springs",
+        "state": "CO",
+        "zip": "80840",
+        "countryCode": "US",
+        "timezone": "America/Denver",
+        "latitude": 38.9969701,
+        "longitude": -104.8436165,
+        "elevation": "2024.875732",
+        "capacity": 46692,
+        "constructionYear": 1962,
+        "grass": false,
+        "dome": false
+      }
+    }
+  },
+  "cfbd_games_2026_20261030T223557Z.json.gz": {
+    "type": "list",
+    "rows": 3678,
+    "sample_keys": [
+      "attendance",
+      "awayClassification",
+      "awayConference",
+      "awayId",
+      "awayLineScores",
+      "awayPoints",
+      "awayPostgameElo",
+      "awayPostgameWinProbability",
+      "awayPregameElo",
+      "awayTeam",
+      "completed",
+      "conferenceGame",
+      "excitementIndex",
+      "highlights",
+      "homeClassification",
+      "homeConference",
+      "homeId",
+      "homeLineScores",
+      "homePoints",
+      "homePostgameElo",
+      "homePostgameWinProbability",
+      "homePregameElo",
+      "homeTeam",
+      "id",
+      "neutralSite",
+      "notes",
+      "playoff",
+      "season",
+      "seasonType",
+      "startDate",
+      "startTimeTBD",
+      "venue",
+      "venueId",
+      "week"
+    ],
+    "sample": {
+      "id": 401866615,
+      "season": 2026,
+      "week": 1,
+      "seasonType": "regular",
+      "startDate": "2026-08-27T22:00:00.000Z",
+      "startTimeTBD": false,
+      "completed": true,
+      "neutralSite": false,
+      "conferenceGame": false,
+      "attendance": null,
+      "venueId": 3613,
+      "venue": "Alumni Stadium",
+      "homeId": 2169,
+      "homeTeam": "Delaware State",
+      "homeClassification": "fcs",
+      "homeConference": "MEAC",
+      "homePoints": 41,
+      "homeLineScores": [
+        10,
+        14,
+        10,
+        7
+      ],
+      "homePostgameWinProbability": 0.9985127449035645,
+      "homePregameElo": null,
+      "homePostgameElo": null,
+      "awayId": 2619,
+      "awayTeam": "Stony Brook",
+      "awayClassification": "fcs",
+      "awayConference": "Coastal Athletic",
+      "awayPoints": 34,
+      "awayLineScores": [
+        6,
+        7,
+        14,
+        7
+      ],
+      "awayPostgameWinProbability": 0.0014872550964355469,
+      "awayPregameElo": null,
+      "awayPostgameElo": null,
+      "excitementIndex": 6.318730480885636,
+      "highlights": "",
+      "notes": null,
+      "playoff": null
+    }
+  }
+}
